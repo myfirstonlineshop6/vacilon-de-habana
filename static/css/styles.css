@@ -260,7 +260,7 @@ section[id] { scroll-margin-top: 84px; }
 .lineup { display: grid; gap: 18px; }
 .ln-item {
   display: grid;
-  grid-template-columns: 90px 1fr auto auto;
+  grid-template-columns: 90px 1fr auto;
   align-items: center;
   gap: 26px;
   background: var(--panel);
@@ -274,8 +274,6 @@ section[id] { scroll-margin-top: 84px; }
 .ln-head h3 { font-family: var(--font-display); font-size: 1.05rem; text-transform: uppercase; }
 .ln-head p { color: var(--muted); font-size: 0.9rem; }
 .ln-genre { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); border: 1px solid rgba(255, 45, 120, 0.5); padding: 0.4rem 1rem; border-radius: 999px; white-space: nowrap; }
-.ln-tickets { font-size: 0.82rem; font-weight: 600; color: #fff; background: rgba(255, 255, 255, 0.08); padding: 0.5rem 1.2rem; border-radius: 10px; white-space: nowrap; }
-
 .lineup-cta { text-align: center; color: var(--muted); margin-top: 2.2rem; font-size: 0.95rem; }
 .lineup-cta a { color: var(--cyan); }
 .lineup-cta a:hover { text-decoration: underline; }

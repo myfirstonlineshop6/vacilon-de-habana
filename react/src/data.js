@@ -1,8 +1,8 @@
 export const lineup = [
-  { date: 'FRI · SEP 18', night: 'Midnight House', dj: 'DJ Aurora + special guests', genre: 'House · Disco', tickets: 'From $25' },
-  { date: 'SAT · SEP 19', night: 'Techno Temple', dj: 'V.I.E. b2b Niko', genre: 'Techno', tickets: 'From $30' },
-  { date: 'FRI · SEP 25', night: 'Retro Nights', dj: 'DJ Mars Live', genre: 'Funk · Nu-Disco', tickets: 'From $20' },
-  { date: 'SAT · SEP 26', night: 'Bass Kingdom', dj: 'RAVE-O vs. Sendi', genre: 'Drum & Bass', tickets: 'From $28' },
+  { date: 'FRI · SEP 18', night: 'Midnight House', dj: 'DJ Aurora + special guests', genre: 'House · Disco' },
+  { date: 'SAT · SEP 19', night: 'Techno Temple', dj: 'V.I.E. b2b Niko', genre: 'Techno' },
+  { date: 'FRI · SEP 25', night: 'Retro Nights', dj: 'DJ Mars Live', genre: 'Funk · Nu-Disco' },
+  { date: 'SAT · SEP 26', night: 'Bass Kingdom', dj: 'RAVE-O vs. Sendi', genre: 'Drum & Bass' },
 ]
 
 export const features = [

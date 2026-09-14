@@ -17,7 +17,6 @@ export default function Events() {
                 <p>{n.dj}</p>
               </div>
               <span className="ln-genre">{n.genre}</span>
-              <span className="ln-tickets">{n.tickets}</span>
             </article>
           ))}
         </div>
