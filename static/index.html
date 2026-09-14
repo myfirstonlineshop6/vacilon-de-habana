@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vacilon de Habana — an immersive night club experience. World-class DJs, premium tables and unforgettable nights." />
+  <title>Vacilon de Habana — After Dark</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">
+        <span class="brand-mark">V</span>
+        <span class="brand-text">Vacilon de <span class="accent">Habana</span></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">The Club</a>
+        <a href="#events" class="nav-link">Lineup</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#reserve" class="nav-link">Reservations</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#reserve" class="btn btn-primary btn-sm nav-join">Book a Table</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">Open Daily · Gates 12PM</p>
+      <h1 class="hero-title"><span class="kicker">After Dark</span>Vacilon de <span class="hero-accent">Habana</span></h1>
+      <p class="hero-sub">
+        An immersive nightlife experience. World-class DJs, cinematic sound and
+        light, premium service and a crowd that knows how to move.
+      </p>
+      <div class="hero-actions">
+        <a href="#reserve" class="btn btn-primary">Reserve a Table</a>
+        <a href="#events" class="btn btn-ghost">Tonight's Lineup</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>1200</strong><span>Capacity</span></div>
+        <div class="stat"><strong>85+</strong><span>Guest DJs / Year</span></div>
+        <div class="stat"><strong>4.9</strong><span>Guest Rating</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>OPEN DAILY</span><span>·</span><span>HOUSE &amp; TECHNO</span><span>·</span>
+      <span>PREMIUM TABLES</span><span>·</span><span>VIP LOUNGE</span><span>·</span>
+      <span>12PM — 6AM</span><span>·</span><span>OPEN DAILY</span><span>·</span>
+      <span>HOUSE &amp; TECHNO</span><span>·</span><span>PREMIUM TABLES</span><span>·</span>
+      <span>VIP LOUNGE</span><span>·</span><span>12PM — 6AM</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">The Club</p>
+        <h2 class="section-title">More than a night out</h2>
+        <p class="section-sub">
+          Three floors, four sound rooms and a rooftop terrace. Engineered for
+          sound that hits deep and lights that move with the beat.
+        </p>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <span class="feature-icon">🔊</span>
+          <h3>Cinematic Sound</h3>
+          <p>Custom Funktion-One sound across every room, tuned by touring engineers for zero dead zones.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">🪩</span>
+          <h3>Immersive Light</h3>
+          <p>A 4K LED stage wall, laser rig and reactive lighting choreographed live to the set.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">🥂</span>
+          <h3>Premium Service</h3>
+          <p>Bottle service, personal hosts and a VIP lounge with city views above the dance floor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events -->
+  <section class="section events" id="events">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Upcoming Nights</p>
+        <h2 class="section-title">Lineup</h2>
+      </div>
+      <div class="lineup" id="lineup"><!-- rendered by js --></div>
+      <p class="lineup-cta">Questions about an event? <a href="#contact">Get in touch</a></p>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Gallery</p>
+        <h2 class="section-title">Nights we remember</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="g-item" style="--g: 0"><span>Main Floor</span></div>
+        <div class="g-item" style="--g: 1"><span>Roof Top</span></div>
+        <div class="g-item" style="--g: 2"><span>VIP Lounge</span></div>
+        <div class="g-item" style="--g: 3"><span>Stage Wall</span></div>
+        <div class="g-item" style="--g: 4"><span>Bar Two</span></div>
+        <div class="g-item" style="--g: 5"><span>After Hours</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation -->
+  <section class="section reserve" id="reserve">
+    <div class="container reserve-wrap">
+      <div class="reserve-info">
+        <p class="eyebrow">Reservations</p>
+        <h2 class="section-title">Claim your spot</h2>
+        <p class="section-sub">
+          Tables start at $150 per party. Bottle service, guest lists and
+          birthday packages — we've got you covered.
+        </p>
+        <ul class="reserve-list">
+          <li>📞 +34 64 320 8905</li>
+          <li>📱 WhatsApp: +34 64 320 8905</li>
+          <li>✉️ tables@vacilondehabana.example</li>
+          <li>🕐 Reservations: 12PM — 6AM, 7 days</li>
+        </ul>
+      </div>
+      <form class="reserve-form" id="reserve-form" novalidate>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="r-name">Full name</label>
+            <input type="text" id="r-name" name="name" placeholder="Prince Anthony" required />
+          </div>
+          <div class="form-field">
+            <label for="r-phone">Phone</label>
+            <input type="tel" id="r-phone" name="phone" placeholder="+34 64 320 8905" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="r-date">Night</label>
+            <select id="r-date" name="date">
+              <option>Everyday</option>
+              
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="r-size">Party size</label>
+            <select id="r-size" name="size">
+              <option>2 — 4 people</option>
+              <option>5 — 8 people</option>
+              <option>9 — 12 people</option>
+              <option>VIP / 12+</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="r-note">Anything we should know?</label>
+          <textarea id="r-note" name="note" rows="4" placeholder="Occasion, music taste, table location..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Request a Table</button>
+        <p class="form-status" id="r-status" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="container contact-row">
+      <div class="contact-col">
+        <h3>Find Us</h3>
+        <p>Calle Alfredo L. Jones no 23<br />Las Palmas de Gran Canaria, Spain</p>
+      </div>
+      <div class="contact-col">
+        <h3>Hours</h3>
+        <p>Every Day<br />12:00 PM — 6:00 AM</p>
+      </div>
+      <div class="contact-col">
+        <h3>Follow</h3>
+        <p>
+          <a href="#">Instagram</a> · <a href="#">TikTok</a><br />
+          <a href="#">Spotify</a> · <a href="#">YouTube</a>
+        </p>
+      </div>
+      <div class="contact-col">
+        <h3>Door Policy</h3>
+        <p>18+ entry. Smart-casual dress code.<br />ID required.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <a href="#home" class="brand">
+        <span class="brand-mark">V</span>
+        <span class="brand-text">Vacilon de <span class="accent">Habana</span></span>
+      </a>
+      <p class="footer-note">© <span id="year"></span> Vacilon de Habana. Drink responsibly — get home safe.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

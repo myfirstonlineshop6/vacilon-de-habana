@@ -1,0 +1,4 @@
+node_modules/
+react/dist/
+.DS_Store
+Thumbs.db

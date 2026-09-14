@@ -1,0 +1,62 @@
+:root {
+  --bg: #08080f;
+  --bg-2: #0e0e19;
+  --panel: #12121f;
+  --ink: #f3f2f8;
+  --muted: #9a9ab0;
+  --border: rgba(255, 255, 255, 0.1);
+  --accent: #ff2d78;
+  --accent-2: #7a2dff;
+  --cyan: #22d3ee;
+  --radius: 16px;
+  --shadow: 0 24px 60px -24px rgba(0, 0, 0, 0.8);
+  --font-sans: "Space Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Unbounded", var(--font-sans);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+.container {
+  width: min(1120px, 92%);
+  margin-inline: auto;
+}
+
+section[id] {
+  scroll-margin-top: 84px;
+}
