@@ -10,7 +10,6 @@ export default function Hero() {
       <div className="container hero-inner">
         <p className="eyebrow">Open Daily · Gates 12PM</p>
         <h1 className="hero-title">
-          <span className="kicker">After Dark</span>
           Vacilon de <span className="hero-accent">Habana</span>
         </h1>
         <p className="hero-sub">
