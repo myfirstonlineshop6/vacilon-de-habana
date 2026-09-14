@@ -8,7 +8,7 @@ export default function About() {
           <p className="eyebrow">The Club</p>
           <h2 className="section-title">More than a night out</h2>
           <p className="section-sub">
-            Three floors, four sound rooms and a rooftop terrace. Engineered for
+            Three floors and four sound rooms. Engineered for
             sound that hits deep and lights that move with the beat.
           </p>
         </div>

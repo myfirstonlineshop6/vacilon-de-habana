@@ -23,4 +23,4 @@ export const features = [
   },
 ]
 
-export const gallery = ['Main Floor', 'Roof Top', 'VIP Lounge', 'Stage Wall', 'Bar Two', 'After Hours']
+export const gallery = ['Main Floor', 'VIP Lounge', 'Stage Wall', 'Bar Two']
